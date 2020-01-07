@@ -225,6 +225,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11436838, guid: c589025ecb191c64d94887d0e12e0111, type: 3}
       propertyPath: axisX.showDirectInspector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436838, guid: c589025ecb191c64d94887d0e12e0111, type: 3}
+      propertyPath: axisX.directAction
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436838, guid: c589025ecb191c64d94887d0e12e0111, type: 3}
+      propertyPath: axisX.axisInfluenced
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22444534, guid: c589025ecb191c64d94887d0e12e0111, type: 3}
@@ -326,7 +334,7 @@ GameObject:
   - component: {fileID: 949910681}
   m_Layer: 0
   m_Name: Anim_IDLE_00001
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
